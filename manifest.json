@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google Sponsored Remover Firefox",
+  "name": "Google Sponsored Remover",
   "version": "1.0.0",
   "description": "Remove the sponsored listings on google searches!",
   "icons": {
@@ -18,5 +18,10 @@
   ],
   "action": {
     "default_popup": "about.html"
+  },
+  "browser_specific_settings": {
+	"gecko": {
+	  "id": "googlesponsoredremover@ryanstew.art"
+	}
   }
 }
