@@ -1,0 +1,47 @@
+$bg-color: #202123;
+$accent-color: #f28735;
+$text-color: #FFF;
+$link-color: #2d8ee3;
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $bg-color;
+    margin: 25px 50px;
+}
+
+h2
+{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: $accent-color;
+    text-transform: uppercase;
+}
+
+h3
+{
+    color: $text-color;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+h2, h3
+{
+    letter-spacing: 1px;
+}
+
+p
+{
+    font-size: .9rem;
+    color: $link-color;
+}
